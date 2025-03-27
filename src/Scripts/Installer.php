@@ -16,6 +16,11 @@ class Installer
             return;
         }
 
+        if (!is_writable($envPath)) {
+            echo ".env file is not writable. Please add JWT variables manually.\n";
+            return;
+        }
+
         self::applyEnv($envPath);
     }
 
