@@ -31,5 +31,13 @@
                 "JWT": "Kyojin\\JWT\\Facades\\JWT"
             }
         }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "Kyojin\\JWT\\Scripts\\Installer::postInstall"
+        ],
+        "post-update-cmd": [
+            "Kyojin\\JWT\\Scripts\\Installer::postInstall"
+        ]
     }
 }
