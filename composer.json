@@ -3,6 +3,7 @@
     "description": "A simple laravel package built on top of Firebase/JWT to handle JWT authentification",
     "type": "library",
     "license": "MIT",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
             "Kyojin\\JWT\\": "src/"
