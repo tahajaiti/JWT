@@ -1,5 +1,5 @@
 {
-    "name": "kyojin/jwt",
+    "name": "tahajaiti/jwt",
     "description": "A simple laravel package built on top of Firebase/JWT to handle JWT authentification",
     "type": "library",
     "license": "MIT",
