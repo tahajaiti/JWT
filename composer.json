@@ -1,0 +1,35 @@
+{
+    "name": "kyojin/jwt",
+    "description": "A simple laravel package built on top of Firebase/JWT to handle JWT authentification",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kyojin\\JWT\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "taha jaiti",
+            "email": "taha.jaiti@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "firebase/php-jwt": "^6.11",
+        "illuminate/support": "^12.3",
+        "illuminate/http": "^12.3",
+        "illuminate/auth": "^12.3",
+        "illuminate/routing": "^12.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kyojin\\JWT\\Providers\\JwtServiceProvider"
+            ],
+            "aliases": {
+                "JWT": "Kyojin\\JWT\\Facades\\JWT"
+            }
+        }
+    }
+}
