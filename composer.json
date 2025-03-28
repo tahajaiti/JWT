@@ -40,6 +40,14 @@
         "post-update-cmd": [
             "Kyojin\\JWT\\Scripts\\Installer::postInstall",
             "Kyojin\\JWT\\Scripts\\ProviderInstaller::postInstall"
+        ],
+        "post-package-install": [
+            "Kyojin\\JWT\\Scripts\\Installer::postInstall",
+            "Kyojin\\JWT\\Scripts\\ProviderInstaller::postInstall"
+        ],
+        "post-package-update": [
+            "Kyojin\\JWT\\Scripts\\Installer::postInstall",
+            "Kyojin\\JWT\\Scripts\\ProviderInstaller::postInstall"
         ]
     }
 }
