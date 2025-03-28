@@ -25,7 +25,7 @@ class JwtServiceProvider extends ServiceProvider
         $this->mergeConfigFrom(__DIR__ . '/../../config/jwt.php', 'jwt');
 
         // Binding to the service container
-        $this->app->singleton('jwt', function () {
+        $this->app->singleton('JWT', function () {
             return new JwtService();
         });
     }
