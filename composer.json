@@ -34,10 +34,12 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "Kyojin\\JWT\\Scripts\\Installer::postInstall"
+            "Kyojin\\JWT\\Scripts\\Installer::postInstall",
+            "Kyojin\\JWT\\Scripts\\ProviderInstaller::postInstall"
         ],
         "post-update-cmd": [
-            "Kyojin\\JWT\\Scripts\\Installer::postInstall"
+            "Kyojin\\JWT\\Scripts\\Installer::postInstall",
+            "Kyojin\\JWT\\Scripts\\ProviderInstaller::postInstall"
         ]
     }
 }
